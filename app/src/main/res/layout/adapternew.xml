@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <androidx.cardview.widget.CardView android:elevation="10dp"
+    android:id="@+id/cardku"
 android:layout_margin="10dp"
 app:cardElevation="10dp"
 android:layout_width="match_parent"
