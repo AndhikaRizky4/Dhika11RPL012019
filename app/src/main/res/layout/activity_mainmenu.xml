@@ -104,7 +104,7 @@
                     android:marqueeRepeatLimit="marquee_forever"
                     android:padding="10dp"
                     android:singleLine="true"
-                    android:text="Lihat Produk Favoritku"
+                    android:text="Lihat Product Favoritku"
                     android:textColor="#000000"
                     tools:targetApi="lollipop"
                     android:layout_alignParentLeft="true" />
