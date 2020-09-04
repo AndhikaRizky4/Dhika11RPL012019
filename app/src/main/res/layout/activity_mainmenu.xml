@@ -50,7 +50,7 @@
                     android:marqueeRepeatLimit="marquee_forever"
                     android:padding="10dp"
                     android:singleLine="true"
-                    android:text="Menu"
+                    android:text="Lihat Product"
                     android:textColor="#000000"
                     tools:targetApi="lollipop"
                     android:layout_alignParentLeft="true" />
@@ -104,7 +104,7 @@
                     android:marqueeRepeatLimit="marquee_forever"
                     android:padding="10dp"
                     android:singleLine="true"
-                    android:text="Lihat Product"
+                    android:text="Lihat Produk Favoritku"
                     android:textColor="#000000"
                     tools:targetApi="lollipop"
                     android:layout_alignParentLeft="true" />
