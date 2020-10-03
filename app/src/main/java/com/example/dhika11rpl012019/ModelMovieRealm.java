@@ -50,5 +50,6 @@ public class ModelMovieRealm extends RealmObject {
     public void setPath(String path) {
         this.path = path;
     }
+
 }
 
