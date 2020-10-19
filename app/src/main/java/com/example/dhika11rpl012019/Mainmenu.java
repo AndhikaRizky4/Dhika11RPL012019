@@ -8,9 +8,9 @@ import android.os.Bundle;
 import android.view.View;
 
 public class Mainmenu extends AppCompatActivity {
+
     CardView menu1;
     CardView menu2;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

@@ -1,5 +1,6 @@
 package com.example.dhika11rpl012019;
 
+
 import io.realm.RealmObject;
 import io.realm.annotations.PrimaryKey;
 
@@ -50,6 +51,5 @@ public class ModelMovieRealm extends RealmObject {
     public void setPath(String path) {
         this.path = path;
     }
-
 }
 

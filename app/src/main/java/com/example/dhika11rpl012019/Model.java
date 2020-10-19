@@ -17,6 +17,7 @@ public class Model {
     public void setId(int id) {
         this.id = id;
     }
+
     public String getOriginal_title() {
         return original_title;
     }
@@ -67,4 +68,3 @@ public class Model {
 
 
 }
-

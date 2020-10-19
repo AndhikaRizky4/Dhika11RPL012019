@@ -74,9 +74,9 @@ public class DataAdapterFavourite extends RecyclerView.Adapter<DataAdapterFavour
             super(itemView);
             viewku=itemView;
             card = (CardView) itemView.findViewById(R.id.cardku);
-            ivprofile = (ImageView) itemView.findViewById(R.id.ivlogo);
-            txtNama = (TextView) itemView.findViewById(R.id.tvnew1);
-            txtNpm = (TextView) itemView.findViewById(R.id.tvndesc1);
+            ivprofile = (ImageView) itemView.findViewById(R.id.ivprofile);
+            txtNama = (TextView) itemView.findViewById(R.id.tvname);
+            txtNpm = (TextView) itemView.findViewById(R.id.tvdesc);
             itemView.setOnCreateContextMenuListener(this);
 
             itemView.setOnClickListener(new View.OnClickListener() {

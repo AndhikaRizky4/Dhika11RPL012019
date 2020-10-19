@@ -7,6 +7,8 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 
+
+
 public class ControlClass extends AppCompatActivity {
     private SharedPreferences sharedPreferences;
     @Override
@@ -16,10 +18,10 @@ public class ControlClass extends AppCompatActivity {
         if (sharedPreferences.getString("username", "").isEmpty() ||
                 sharedPreferences.getString("username", "").equalsIgnoreCase("")){
             //login dulu
-            startActivity(new Intent(getApplicationContext(),MainActivity.class));
+            startActivity(new Intent(getApplicationContext(), MainActivity.class));
             finish();
         }else{
-            startActivity(new Intent(getApplicationContext(),Mainmenu.class));
+            startActivity(new Intent(getApplicationContext(), Mainmenu.class));
             finish();
         }
     }
